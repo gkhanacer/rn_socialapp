@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "812887673017",
+    "project_id": "rn-social-app-2f531",
+    "storage_bucket": "rn-social-app-2f531.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812887673017:android:93ed43550326aa2a997368",
+        "android_client_info": {
+          "package_name": "com.gokhanacer.SocialApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812887673017-68oqdovkqvphbm2qibogds147is0q5cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt_NCyEk_eGP4n9Zx_wE_FXYx7IxTsQnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812887673017-68oqdovkqvphbm2qibogds147is0q5cf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "812887673017-gq38f95img8ggm14mqsahscjhd9fsnho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gokhanacer.socialapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
