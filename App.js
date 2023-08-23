@@ -4,8 +4,6 @@ import Providers from "./navigation";
 import AppLoading from "expo-app-loading";
 import useCustomFonts from "./hooks/useCustomFonts";
 
-// SplashScreen.preventAutoHideAsync();
-
 const App = () => {
   const [IsReady, SetIsReady] = useState(false);
 
