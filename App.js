@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 import Providers from "./navigation";
 
 // import { useFonts } from "expo-font";

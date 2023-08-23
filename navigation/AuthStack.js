@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import {View} from 'react-native';
-import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
@@ -38,7 +37,6 @@ const AuthStack = () => {
   }
 
   return (
-    // <NavigationContainer>
       <Stack.Navigator initialRouteName={routeName}>
         <Stack.Screen name="Onboarding" component={OnboardingScreen} options={{header: () => null}}/>
         <Stack.Screen name="Login" component={LoginScreen} options={{header: () => null}} />
@@ -66,7 +64,6 @@ const AuthStack = () => {
           })}
       />
       </Stack.Navigator>
-    //</NavigationContainer>
   );
 };
 
