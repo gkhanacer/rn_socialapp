@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { auth } from "@react-native-firebase/auth";
+import auth from '@react-native-firebase/auth';
 
 import { AuthContext, AuthProvider } from "./AuthProvider";
 import AuthStack from "./AuthStack";
@@ -14,16 +14,19 @@ const Routes = () => {
 
     // Handle user state changes
     function onAuthStateChanged(user) {
+        console.log('auth state changes')
         setUser(user);
         if (initializing) setInitializing(false);
     }
+    
     useEffect(() => {
         const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
         return subscriber; // unsubscribe on unmount
     }, []);
 
     if (initializing) {
-		alert('firebase error');
+		// alert('firebase error');
+        console.log('firebase error')
 		// TODO: use loader here
 		return null;
 	}
